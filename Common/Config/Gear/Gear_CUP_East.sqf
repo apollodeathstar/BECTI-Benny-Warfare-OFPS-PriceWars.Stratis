@@ -314,7 +314,7 @@ _p pushBack 100;
 //Launchers
 
 _i pushBack "CUP_glaunch_6G30";
-_u pushBack 2;
+_u pushBack 0;
 _p pushBack 600;
 	
 //Anti-air
@@ -1218,11 +1218,11 @@ _p pushBack 200;
 
 _i pushBack "CUP_muzzle_Bizon";
 _u pushBack 0;
-_p pushBack 300;
+_p pushBack 200;
 
 _i pushBack "CUP_muzzle_snds_MicroUzi";
 _u pushBack 0;
-_p pushBack 300;
+_p pushBack 200;
 
 //--Side Attachment
 //--Laser Attachment
