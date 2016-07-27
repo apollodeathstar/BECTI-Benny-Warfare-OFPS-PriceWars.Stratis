@@ -57,7 +57,7 @@ _p pushBack 400;
 //(Assassin)
 _i pushBack "H_HelmetSpecO_ghex_F";
 _u pushBack 2;
-_p pushBack 2000;
+_p pushBack 300;
 
 //(Crew)
 _i pushBack "H_HelmetCrew_O_ghex_F";
@@ -82,7 +82,7 @@ _p pushBack 300;
 //(Viper)
 _i pushBack "H_HelmetO_ViperSP_ghex_F";
 _u pushBack 3;
-_p pushBack 300;
+_p pushBack 2000;
 
 
 //Face
@@ -96,12 +96,12 @@ _p pushBack 300;
 //NVG:
 //UNIVERSAL
 _i pushBack "NVGoggles_tna_F";
-_u pushBack 1;
+_u pushBack 0;
 _p pushBack 500;
 
 //CSAT
 _i pushBack "O_NVGoggles_ghex_F";
-_u pushBack 1;
+_u pushBack 0;
 _p pushBack 500;
 
 
@@ -141,12 +141,12 @@ _p pushBack 1000;
 //Guns:
 //(Ak-74)
 _i pushBack "arifle_AKM_F";
-_u pushBack 0;
+_u pushBack 3;
 _p pushBack 500;
 
 //(Ak-74U)
 _i pushBack "arifle_AKS_F";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 300;
 
 //(CAR-95)
@@ -169,20 +169,20 @@ _p pushBack 400;
 
 //(CAR-95LMG)
 _i pushBack "arifle_CTARS_ghex_F";
-_u pushBack 2;
-_p pushBack 350;
+_u pushBack 1;
+_p pushBack 400;
 
 _i pushBack "arifle_CTARS_blk_F";
-_u pushBack 2;
-_p pushBack 350;
+_u pushBack 1;
+_p pushBack 400;
 
 //(CMR-76 Sniper)
 _i pushBack "srifle_DMR_07_ghex_F";
-_u pushBack 2;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack "srifle_DMR_07_blk_F";
-_u pushBack 2;
+_u pushBack 1;
 _p pushBack 400;
 
 //(GM6 .50)
@@ -193,15 +193,15 @@ _p pushBack 1000;
 //(Type 115 AR/CQB Hybrid)
 _i pushBack "arifle_ARX_ghex_F";
 _u pushBack 3;
-_p pushBack 650;
+_p pushBack 700;
 
 _i pushBack "arifle_ARX_blk_F";
 _u pushBack 3;
-_p pushBack 650;
+_p pushBack 700;
 
 //(Ak-12)
 _i pushBack "arifle_AK12_F";
-_u pushBack 0;
+_u pushBack 2;
 _p pushBack 500;
 
 
@@ -217,7 +217,7 @@ _p pushBack 40;
 
 //(Ak-74U)
 _i pushBack "30Rnd_545x39_Mag_Tracer_F";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 20;
 
 _i pushBack "30Rnd_545x39_Mag_Tracer_Green_F";
@@ -271,7 +271,7 @@ _p pushBack 40;
 
 //(RPG-7)
 _i pushBack "RPG7_F";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 150;
 
 
@@ -287,20 +287,20 @@ _p pushBack 650;
 
 //(CAR-95)
 _i pushBack "muzzle_snds_58_wdm_F";
-_u pushBack 2;
+_u pushBack 1;
 _p pushBack 500;
 
 _i pushBack "muzzle_snds_58_blk_F";
-_u pushBack 2;
+_u pushBack 1;
 _p pushBack 500;
 
 //(CMR-76)
 _i pushBack "muzzle_snds_H_khk_F";
-_u pushBack 2;
+_u pushBack 1;
 _p pushBack 650;
 
 _i pushBack "muzzle_snds_H_blk_F";
-_u pushBack 2;
+_u pushBack 1;
 _p pushBack 650;
 
 
@@ -310,11 +310,11 @@ _u pushBack 1;
 _p pushBack 400;
 
 _i pushBack "optic_DMS_ghex_F";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 800;
 
 _i pushBack "optic_LRPS_ghex_F";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 800;
 
 
@@ -330,12 +330,12 @@ _u pushBack 1;
 _p pushBack 600;
 
 _i pushBack "launch_O_Titan_ghex_F";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 3000;
 
 _i pushBack "launch_O_Titan_short_ghex_F";
 _u pushBack 3;
-_p pushBack 4000;
+_p pushBack 5000;
 
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf"; 

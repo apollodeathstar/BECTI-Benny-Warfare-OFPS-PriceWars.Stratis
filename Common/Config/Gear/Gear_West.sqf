@@ -11,7 +11,7 @@ _p = [];
 
 _i pushBack "ATMine_Range_Mag";
 _u pushBack 0;
-_p pushBack 200;
+_p pushBack 300;
 
 _i pushBack "APERSMine_Range_Mag";
 _u pushBack 0;
@@ -30,12 +30,12 @@ _u pushBack 0;
 _p pushBack 50;
 
 _i pushBack "SatchelCharge_Remote_Mag";
-_u pushBack 0;
+_u pushBack 3;
 _p pushBack 500;
 
 _i pushBack "DemoCharge_Remote_Mag";
-_u pushBack 0;
-_p pushBack 50;
+_u pushBack 1;
+_p pushBack 300;
 
 _i pushBack "ClaymoreDirectionalMine_Remote_Mag";
 _u pushBack 0;
@@ -126,19 +126,19 @@ _u pushBack 0;
 _p pushBack 90;
 
 _i pushBack "NLAW_F";
-_u pushBack 0;
-_p pushBack 400;
+_u pushBack 1;
+_p pushBack 500;
 
 _i pushBack "Titan_AA";
-_u pushBack 0;
+_u pushBack 3;
 _p pushBack 1200;
 
 _i pushBack "Titan_AP";
-_u pushBack 1;
+_u pushBack 3;
 _p pushBack 2000;
 
 _i pushBack "Titan_AT";
-_u pushBack 1;
+_u pushBack 3;
 _p pushBack 2000;
 
 _i pushBack "HandGrenade";
@@ -155,31 +155,31 @@ _p pushBack 1;
 
 _i pushBack "SmokeShell";
 _u pushBack 0;
-_p pushBack 2;
+_p pushBack 10;
 
 _i pushBack "SmokeShellRed";
 _u pushBack 0;
-_p pushBack 2;
+_p pushBack 10;
 
 _i pushBack "SmokeShellGreen";
 _u pushBack 0;
-_p pushBack 2;
+_p pushBack 10;
 
 _i pushBack "SmokeShellYellow";
 _u pushBack 0;
-_p pushBack 2;
+_p pushBack 10;
 
 _i pushBack "SmokeShellPurple";
 _u pushBack 0;
-_p pushBack 2;
+_p pushBack 10;
 
 _i pushBack "SmokeShellBlue";
 _u pushBack 0;
-_p pushBack 2;
+_p pushBack 10;
 
 _i pushBack "SmokeShellOrange";
 _u pushBack 0;
-_p pushBack 2;
+_p pushBack 10;
 
 _i pushBack "Chemlight_green";
 _u pushBack 0;
@@ -267,7 +267,7 @@ _p pushBack 4;
 
 _i pushBack "3Rnd_HE_Grenade_shell";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 _i pushBack "3Rnd_Smoke_Grenade_shell";
 _u pushBack 0;
@@ -319,115 +319,115 @@ _p pushBack 12;
 
 //--- Weapons
 _i pushBack "arifle_MX_F";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MX_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MX_Holo_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MX_Hamr_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MX_ACO_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MX_ACO_pointer_snds_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MX_RCO_pointer_snds_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MX_ACO_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack "arifle_MX_GL_F";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 500;
 
 _i pushBack ["arifle_MX_GL_ACO_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 500;
 
 _i pushBack ["arifle_MX_GL_ACO_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 500;
 
 _i pushBack ["arifle_MX_GL_Hamr_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 500;
 
 _i pushBack ["arifle_MX_GL_Holo_pointer_snds_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 500;
 
 _i pushBack "arifle_MX_SW_F";
-_u pushBack 0;
-_p pushBack 450;
+_u pushBack 1;
+_p pushBack 500;
 
 _i pushBack ["arifle_MX_SW_pointer_F"];
-_u pushBack 0;
-_p pushBack 450;
+_u pushBack 1;
+_p pushBack 500;
 
 _i pushBack ["arifle_MX_SW_Hamr_pointer_F"];
-_u pushBack 0;
-_p pushBack 450;
+_u pushBack 1;
+_p pushBack 500;
 
 _i pushBack "arifle_MXC_F";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MXC_Holo_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MXC_Holo_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MXC_ACO_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MXC_Holo_pointer_snds_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MXC_SOS_point_snds_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MXC_ACO_pointer_snds_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MXC_ACO_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack "arifle_MXM_F";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MXM_Hamr_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MXM_SOS_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_MXM_RCO_pointer_snds_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack "arifle_SDAR_F";
@@ -435,72 +435,72 @@ _u pushBack 0;
 _p pushBack 300;
 
 _i pushBack "LMG_Mk200_F";
-_u pushBack 0;
-_p pushBack 400;
+_u pushBack 1;
+_p pushBack 500;
 
 _i pushBack ["LMG_Mk200_MRCO_F"];
-_u pushBack 0;
-_p pushBack 400;
+_u pushBack 1;
+_p pushBack 500;
 
 _i pushBack ["LMG_Mk200_pointer_F"];
-_u pushBack 0;
-_p pushBack 400;
+_u pushBack 1;
+_p pushBack 500;
 
 _i pushBack "arifle_Mk20_F";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 300;
 
 _i pushBack ["arifle_Mk20_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 300;
 
 _i pushBack ["arifle_Mk20_Holo_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 300;
 
 _i pushBack ["arifle_Mk20_ACO_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 300;
 
 _i pushBack ["arifle_Mk20_ACO_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 300;
 
 _i pushBack ["arifle_Mk20_MRCO_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 300;
 
 _i pushBack ["arifle_Mk20_MRCO_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 300;
 
 _i pushBack "arifle_Mk20C_F";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 300;
 
 _i pushBack ["arifle_Mk20C_ACO_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 300;
 
 _i pushBack ["arifle_Mk20C_ACO_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 300;
 
 _i pushBack "arifle_Mk20_GL_F";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_Mk20_GL_MRCO_pointer_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack ["arifle_Mk20_GL_ACO_F"];
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 400;
 
 _i pushBack "SMG_01_F";
 _u pushBack 0;
-_p pushBack 100;
+_p pushBack 200;
 
 _i pushBack ["SMG_01_Holo_F"];
 _u pushBack 0;
@@ -527,72 +527,72 @@ _u pushBack 0;
 _p pushBack 200;
 
 _i pushBack "srifle_EBR_F";
-_u pushBack 0;
+_u pushBack 2;
 _p pushBack 500;
 
 _i pushBack ["srifle_EBR_ACO_F"];
-_u pushBack 0;
+_u pushBack 2;
 _p pushBack 500;
 
 _i pushBack ["srifle_EBR_MRCO_pointer_F"];
-_u pushBack 0;
+_u pushBack 2;
 _p pushBack 500;
 
 _i pushBack ["srifle_EBR_ARCO_pointer_F"];
-_u pushBack 0;
+_u pushBack 2;
 _p pushBack 500;
 
 _i pushBack ["srifle_EBR_SOS_F"];
-_u pushBack 0;
+_u pushBack 2;
 _p pushBack 500;
 
 _i pushBack ["srifle_EBR_ARCO_pointer_snds_F"];
-_u pushBack 0;
+_u pushBack 2;
 _p pushBack 500;
 
 _i pushBack "srifle_LRR_F";
-_u pushBack 0;
+_u pushBack 3;
 _p pushBack 1000;
 
 _i pushBack ["srifle_LRR_SOS_F"];
-_u pushBack 0;
+_u pushBack 3;
 _p pushBack 1000;
 
 _i pushBack "launch_NLAW_F";
-_u pushBack 0;
-_p pushBack 1000;
+_u pushBack 2;
+_p pushBack 1200;
 
 _i pushBack "launch_B_Titan_F";
-_u pushBack 0;
+_u pushBack 3;
 _p pushBack 3000;
 
 _i pushBack "launch_B_Titan_short_F";
-_u pushBack 0;
-_p pushBack 4000;
+_u pushBack 3;
+_p pushBack 5000;
 
 _i pushBack "hgun_P07_F";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 _i pushBack ["hgun_P07_snds_F"];
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 _i pushBack "hgun_Pistol_heavy_01_F";
 _u pushBack 1;
-_p pushBack 50;
+_p pushBack 100;
 
 //--- Uniforms
 _i pushBack "U_B_CombatUniform_mcam";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 100;
 
 _i pushBack "U_B_CTRG_1";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 100;
 
 _i pushBack "U_B_GhillieSuit";
-_u pushBack 1;
+_u pushBack 2;
 _p pushBack 600;
 
 _i pushBack "U_B_HeliPilotCoveralls";
@@ -642,7 +642,7 @@ _p pushBack 25;
 
 _i pushBack "V_RebreatherB";
 _u pushBack 0;
-_p pushBack 15;
+_p pushBack 400;
 
 //--- Backpacks
 _i pushBack "B_AssaultPack_mcamo";
@@ -690,7 +690,7 @@ _u pushBack 0;
 _p pushBack 5;
 
 _i pushBack "B_UAV_01_backpack_F";
-_u pushBack 0;
+_u pushBack 2;
 _p pushBack 2000;
 
 _i pushBack "B_HMG_01_support_F";
@@ -718,12 +718,12 @@ _u pushBack 0;
 _p pushBack 300;
 
 _i pushBack "B_Mortar_01_support_F";
-_u pushBack 1;
+_u pushBack 2;
 _p pushBack 50;
 
 _i pushBack "B_Mortar_01_weapon_F";
-_u pushBack 1;
-_p pushBack 5000;
+_u pushBack 2;
+_p pushBack 8000;
 
 //--- Glasses
 _i pushBack "G_Combat";
@@ -774,11 +774,11 @@ _p pushBack 200;
 
 _i pushBack "muzzle_snds_H";
 _u pushBack 0;
-_p pushBack 200;
+_p pushBack 500;
 
 _i pushBack "muzzle_snds_H_MG";
 _u pushBack 0;
-_p pushBack 500;
+_p pushBack 700;
 
 _i pushBack "muzzle_snds_B";
 _u pushBack 0;
@@ -794,11 +794,11 @@ _p pushBack 700;
 
 _i pushBack "optic_arco";
 _u pushBack 0;
-_p pushBack 200;
+_p pushBack 400;
 
 _i pushBack "optic_Hamr";
 _u pushBack 0;
-_p pushBack 200;
+_p pushBack 400;
 
 _i pushBack "optic_Holosight";
 _u pushBack 0;
@@ -821,19 +821,19 @@ _u pushBack 0;
 _p pushBack 800;
 
 _i pushBack "optic_NVS";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 1000;
 
 _i pushBack "optic_Nightstalker";
-_u pushBack 1;
+_u pushBack 3;
 _p pushBack 2000;
 
 _i pushBack "optic_tws";
-_u pushBack 1;
+_u pushBack 3;
 _p pushBack 1600;
 
 _i pushBack "optic_tws_mg";
-_u pushBack 1;
+_u pushBack 3;
 _p pushBack 1600;
 
 _i pushBack "optic_MRD";
@@ -894,16 +894,16 @@ _u pushBack 0;
 _p pushBack 100;
 
 _i pushBack "Laserdesignator";
-_u pushBack 0;
+_u pushBack 2;
 _p pushBack 1000;
 
 _i pushBack "ItemGPS";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 100;
 
 _i pushBack "B_UavTerminal";
-_u pushBack 0;
-_p pushBack 1000;
+_u pushBack 1;
+_p pushBack 1500;
 
 _i pushBack "ItemMap";
 _u pushBack 0;
