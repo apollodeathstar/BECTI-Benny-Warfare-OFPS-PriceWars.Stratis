@@ -10,10 +10,10 @@ missionNamespace setVariable [format["CTI_%1_Soldier", _side], "B_Soldier_F"];
 missionNamespace setVariable [format["CTI_%1_Crew", _side], "B_crew_F"];
 missionNamespace setVariable [format["CTI_%1_Pilot", _side], "B_Helipilot_F"];
 
-if (CTI_CUP_ADDON > 0) then { 
-missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
+if (CTI_CUP_ADDON > 0) then {
+missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 	["B_Truck_01_medical_F", [
-		["CUP_launch_M136", 5], 
+		["CUP_launch_M136", 5],
 		["CUP_M136_M", 20],
 		["CUP_8Rnd_B_Beneli_74Slug", 30],
 		["CUP_8Rnd_B_Beneli_74Pellets", 30],
@@ -22,19 +22,19 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 	["B_MRAP_01_F", [
 		["Toolkit", 2],
 		["CUP_8Rnd_B_Beneli_74Slug", 30],
-		["CUP_8Rnd_B_Beneli_74Pellets", 30]
+		["CUP_8Rnd_B_Beneli_74Pellets", 30],
 		["CUP_launch_M136", 5],
 		["CUP_M136_M", 10]
 	]],
 	["CUP_B_HMMWV_M2_GPK_USA", [
 		["CUP_8Rnd_B_Beneli_74Slug", 30],
-		["CUP_8Rnd_B_Beneli_74Pellets", 30]
+		["CUP_8Rnd_B_Beneli_74Pellets", 30],
 		["CUP_launch_M136", 5],
 		["CUP_M136_M", 10]
 	]],
 	["CUP_B_HMMWV_M2_GPK_USA", [
 		["CUP_8Rnd_B_Beneli_74Slug", 30],
-		["CUP_8Rnd_B_Beneli_74Pellets", 30]
+		["CUP_8Rnd_B_Beneli_74Pellets", 30],
 		["CUP_launch_M136", 5],
 		["CUP_M136_M", 10]
 	]]
@@ -42,7 +42,7 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 
 ]];
 } else {
-missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
+missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 	["B_Truck_01_medical_F", [
 		["arifle_mx_gl_f", 2], ["30Rnd_65x39_caseless_mag", 50],
 		["arifle_MXM_F", 1],
@@ -92,7 +92,7 @@ _u pushBack "B_crew_F";
 _u pushBack "B_Soldier_TL_F";
 _u pushBack "B_Soldier_SL_F";
 //--- APEX UNITS
-if (CTI_APEX_ADDON > 0) then { 
+if (CTI_APEX_ADDON > 0) then {
 	//NATO Pacific
 	_u pushBack 'B_T_soldier_AR_F';
 	_u pushBack 'B_T_Soldier_A_F';
@@ -135,7 +135,7 @@ if (CTI_APEX_ADDON > 0) then {
 	_u pushBack 'B_CTRG_Soldier_TL_tna_F';
 };
 //--- CUP UNITS
-if (CTI_CUP_ADDON > 0) then { 
+if (CTI_CUP_ADDON > 0) then {
 	_u pushBack 'CUP_B_US_Soldier';
 	_u pushBack 'CUP_B_US_Soldier_AA';
 	_u pushBack 'CUP_B_US_Soldier_AR';
@@ -166,14 +166,14 @@ _u pushBack 'B_Slingload_01_Medevac_F';
 _u pushBack 'O_Truck_03_device_F';
 
 //--- APEX UNITS
-if (CTI_APEX_ADDON > 0) then { 
+if (CTI_APEX_ADDON > 0) then {
 	_u pushback 'I_C_Offroad_02_unarmed_F';
 	_u pushBack 'B_T_LSV_01_unarmed_F';
 	_u pushBack 'B_T_LSV_01_armed_F';
 };
 
 //--- CUP UNITS
-if (CTI_CUP_ADDON > 0) then { 
+if (CTI_CUP_ADDON > 0) then {
 	_u pushBack 'CUP_B_M1030';
 	_u pushBack 'CUP_B_TowingTractor_USMC';
 	_u pushBack 'CUP_B_Dingo_GL_CZ_Wdl';
@@ -221,7 +221,7 @@ if (CTI_CUP_ADDON > 0) then {
 	_u pushBack 'CUP_B_Wolfhound_HMG_GB_W';
 };
 //--- OFPS UNITS
-if (CTI_OFPS_ADDON > 0) then { 
+if (CTI_OFPS_ADDON > 0) then {
 	_u pushBack 'dbo_CIV_new_bike';
 	_u pushBack 'dbo_CIV_ol_bike';
 };
@@ -237,7 +237,7 @@ _u pushBack "B_MBT_01_arty_F";
 _u pushBack "B_MBT_01_mlrs_F";
 
 //--- CUP UNITS
-if (CTI_CUP_ADDON > 0) then { 
+if (CTI_CUP_ADDON > 0) then {
 	_u pushBack 'CUP_B_AAV_USMC';
 	_u pushBack 'CUP_B_M113_USA';
 	_u pushBack 'CUP_B_M113_Med_USA';
@@ -254,7 +254,7 @@ if (CTI_CUP_ADDON > 0) then {
 	_u pushBack 'CUP_B_MCV80_GB_D_SLAT';
 };
 //--- OFPS UNITS
-if (CTI_OFPS_ADDON > 0) then { 
+if (CTI_OFPS_ADDON > 0) then {
 
 };
 
@@ -271,7 +271,7 @@ _u pushBack "B_UAV_02_F";
 _u pushBack "B_Plane_CAS_01_F";
 
 //--- APEX UNITS
-if (CTI_APEX_ADDON > 0) then { 
+if (CTI_APEX_ADDON > 0) then {
 	_u pushBack 'C_Plane_Civil_01_racing_F';
 	_u pushBack 'B_T_UAV_03_F';
 	_u pushBack 'B_T_VTOL_01_infantry_F';
@@ -280,7 +280,7 @@ if (CTI_APEX_ADDON > 0) then {
 };
 
 //--- CUP UNITS
-if (CTI_CUP_ADDON > 0) then { 
+if (CTI_CUP_ADDON > 0) then {
 	_u pushBack 'CUP_B_MH6J_USA';
 	_u pushBack 'CUP_B_AH6X_USA';
 	_u pushBack 'CUP_B_AH6J_Escort_USA';
@@ -321,7 +321,7 @@ if (CTI_CUP_ADDON > 0) then {
 	_u pushBack 'CUP_B_AC47_Spooky_USA';
 };
 //--- OFPS UNITS
-if (CTI_OFPS_ADDON > 0) then { 
+if (CTI_OFPS_ADDON > 0) then {
 	_u pushBack 'B_UCSV_01';
 	_u pushBack 'B_UCSV_02';
 	_u pushBack 'globemaster_c17_NATO';
@@ -350,11 +350,11 @@ _u pushBack 'B_Slingload_01_Repair_F';
 _u pushBack 'B_Slingload_01_Fuel_F';
 
 //--- CUP UNITS
-if (CTI_CUP_ADDON > 0) then { 
+if (CTI_CUP_ADDON > 0) then {
 
 };
 //--- OFPS UNITS
-if (CTI_OFPS_ADDON > 0) then { 
+if (CTI_OFPS_ADDON > 0) then {
 
 };
 
@@ -367,11 +367,11 @@ _u pushBack "Box_NATO_Wps_F";
 _u pushBack "B_supplyCrate_F";
 
 //--- CUP UNITS
-if (CTI_CUP_ADDON > 0) then { 
+if (CTI_CUP_ADDON > 0) then {
 
 };
 //--- OFPS UNITS
-if (CTI_OFPS_ADDON > 0) then { 
+if (CTI_OFPS_ADDON > 0) then {
 
 };
 
@@ -385,18 +385,18 @@ _u pushBack 'C_Boat_Civil_01_police_F';
 _u pushBack "B_SDV_01_F";
 
 //--- APEX UNITS
-if (CTI_APEX_ADDON > 0) then { 
+if (CTI_APEX_ADDON > 0) then {
 	_u pushBack "C_Scooter_Transport_01_F";
 	_u pushBack "I_C_Boat_Transport_02_F";
 };
 
 //--- CUP UNITS
-if (CTI_CUP_ADDON > 0) then { 
+if (CTI_CUP_ADDON > 0) then {
 	_u pushBack "CUP_B_RHIB_USMC";
 	_u pushBack "CUP_B_RHIB2Turret_USMC";
 };
 //--- OFPS UNITS
-if (CTI_OFPS_ADDON > 0) then { 
+if (CTI_OFPS_ADDON > 0) then {
 	_u pushBack "Burnes_LCAC_1";
 	_u pushBack "sfp_gruppbat";
 	_u pushBack "rhsusf_mkvsoc";
