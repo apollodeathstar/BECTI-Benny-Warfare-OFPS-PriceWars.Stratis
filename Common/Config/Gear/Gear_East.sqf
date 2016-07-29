@@ -48,7 +48,7 @@ _i pushBack "6Rnd_45ACP_Cylinder";
 _u pushBack 0;
 _p pushBack 20;
 
-_i pushBack "10Rnd_762x54_Mag";  //Rahim 
+_i pushBack "10Rnd_762x54_Mag";  //Rahim
 _u pushBack 2;
 _p pushBack 150;
 
@@ -576,7 +576,7 @@ _p pushBack 5;
 _i pushBack "G_Goggles_VR";
 _u pushBack 3;
 _p pushBack 2000;
-/*
+
 _i pushBack "G_Tactical_Clear";
 _u pushBack 3;
 _p pushBack 2000;
@@ -1063,6 +1063,6 @@ _i pushBack "Medikit";
 _u pushBack 0;
 _p pushBack 500;
 
-[_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf"; 
+[_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
 
 //--- Templates (Those lines can be generated in the RPT on purchase by uncommenting the diag_log in Events_UI_GearMenu.sqf >> "onPurchase").
