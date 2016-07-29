@@ -819,7 +819,7 @@ _p pushBack 150;
 
 _i pushBack "CUP_6Rnd_45ACP_M";
 _u pushBack 0;
-_p pushBack 25
+_p pushBack 25;
 
 /*
 _i pushBack "CUP_7Rnd_45ACP_1911";
