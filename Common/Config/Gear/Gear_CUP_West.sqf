@@ -560,7 +560,6 @@ _i pushBack "CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag";
 _u pushBack 1;
 _p pushBack 150;
 
-_
 _i pushBack "CUP_100Rnd_TE4_Red_Tracer_556x45_M249";
 _u pushBack 1;
 _p pushBack 150;
