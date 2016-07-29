@@ -1543,6 +1543,4 @@ _i pushBack "CUP_Vector21Nite";
 _u pushBack 1;
 _p pushBack 500;
 
-
-
-[_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf"; 
+[_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";

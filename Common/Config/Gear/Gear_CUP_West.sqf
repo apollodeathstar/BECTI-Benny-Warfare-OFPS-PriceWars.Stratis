@@ -11,25 +11,25 @@ _p = [];
 
 //Shields
 
-_i pushBack "CUP_hgun_BallisticShield_Armed";
+_i pushBack "CUP_hgun_BallisticShield_Armed"; 
 _u pushBack 0;
 _p pushBack 100;
 
 //RIFLES
-
+	
 //MK12 Family
-
-_i pushBack "CUP_srifle_Mk12SPR";
+			
+_i pushBack "CUP_srifle_Mk12SPR"; 
 _u pushBack 1;
 _p pushBack 300;
-
+	
 //FN FAL Family
-
+			
 _i pushBack "CUP_arifle_FNFAL_railed";
 _u pushBack 3;
 _p pushBack 500;
 
-_i pushBack "CUP_lmg_minimi_railed";
+_i pushBack "CUP_lmg_minimi_railed";  
 _u pushBack 1;
 _p pushBack 400;
 
@@ -170,7 +170,7 @@ _u pushBack 1;
 _p pushBack 300;
 
 //MK17 Family
-
+		
 _i pushBack "CUP_arifle_Mk17_CQC";
 _u pushBack 3;
 _p pushBack 500;
@@ -209,9 +209,9 @@ _i pushBack "CUP_arifle_Mk20";
 _u pushBack 3;
 _p pushBack 550;
 
-
+		
 //Machine Guns
-
+	
 //L86A2 Family
 
 _i pushBack "CUP_arifle_L86A2";
@@ -252,7 +252,7 @@ _p pushBack 450;
 
 
 //M240 Family
-
+	
 _i pushBack "CUP_lmg_m249_pip3";
 _u pushBack 1;
 _p pushBack 450;
@@ -286,7 +286,7 @@ _u pushBack 3;
 _p pushBack 600;
 
 //Sniper Rifles
-
+	
 //L115A1 Family
 
 _i pushBack "CUP_srifle_AWM_des";
@@ -357,7 +357,7 @@ _p pushBack 1000;
 
 
 //Shotguns
-
+	
 //AA-12 Family
 
 _i pushBack "CUP_sgun_AA12";
@@ -376,7 +376,7 @@ _u pushBack 0;
 _p pushBack 150;
 
 //Small Machine Guns (SMGs)
-
+	
 //MP5 Family
 
 _i pushBack "CUP_smg_MP5SD6";
@@ -434,9 +434,9 @@ _u pushBack 0;
 _p pushBack 100;
 
 //Launchers
-
+	
 //M32 Grenade Family
-
+		
 _i pushBack "CUP_glaunch_M32";
 _u pushBack 1;
 _p pushBack 600;
@@ -450,17 +450,17 @@ _p pushBack 200;
 
 
 //Anti-air
-
+			
 //FIM-92 Stinger Family
-
+		
 _i pushBack "CUP_launch_FIM92Stinger";
 _u pushBack 2;
 _p pushBack 2000;
 
 //Anti-Tank
-
+		
 //M3 MAAWS Family
-
+			
 _i pushBack "CUP_launch_MAAWS_Scope";
 _u pushBack 2;
 _p pushBack 600;
@@ -560,6 +560,7 @@ _i pushBack "CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag";
 _u pushBack 1;
 _p pushBack 150;
 
+_
 _i pushBack "CUP_100Rnd_TE4_Red_Tracer_556x45_M249";
 _u pushBack 1;
 _p pushBack 150;
@@ -1897,6 +1898,5 @@ _p pushBack 1000;
 _i pushBack "CUP_Vector21Nite";
 _u pushBack 1;
 _p pushBack 500;
-
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
