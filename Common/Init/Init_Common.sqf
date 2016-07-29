@@ -151,13 +151,13 @@ createMarkerLocal ["respawn_west",getMarkerPos "CTI_WestRespawn"];
 if (CTI_CUP_ADDON > 0) then { 
 //Default CUP
 missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
-	[["CUP_sgun_M1014",["","","",""],["CUP_launch_M136",["","","",""],["CUP_M136_M"]],["CUP_hgun_M9",["","","",""],[]]],
-	[["CUP_U_B_USMC_Officerm",["CUP_15Rnd_9x19_M9", "CUP_15Rnd_9x19_M9", "CUP_15Rnd_9x19_M9", "CUP_15Rnd_9x19_M9", "MiniGrenade", "MiniGrenade"]],["B_AssaultPack_rgr",["CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_M136_M", "CUP_M136_M", "CUP_15Rnd_9x19_M9", "CUP_15Rnd_9x19_M9"]]],
-	["CUP_H_USMC_Headset_GoggleW_HelmetWDL",""],[["nvgoggles","binocular"],["itemmap","itemcompass"]]]];
+	[["CUP_arifle_M16A4_Base",["","","",""],["30Rnd_556x45_Stanag_Tracer_Green"]],["CUP_launch_M136",["","","",""],["CUP_M136_M"]],["hgun_p07_f",["","","",""],[]]],
+	[["U_B_CombatUniform_mcam",["firstaidkit","firstaidkit","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Green"]],["V_PlateCarrier1_blk",["30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Green","16rnd_9x21_mag","16rnd_9x21_mag","smokeshell","smokeshellblue"]],["CUP_B_AssaultPack_Black",["CUP_HandGrenade_M67","CUP_HandGrenade_M67",""]]],
+	["H_HelmetB_black",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
-	[["CUP_sgun_Saiga12K",["","","",""],["CUP_8Rnd_B_Saiga12_74Slug_M"]],["",["","","",""],[""]],["CUP_launch_RPG18",[],["CUP_RPG18_M"]],["CUP_hgun_Makarov",["","","",""],[]]],
-	[["CUP_U_O_RUS_EMR_1_VDV",["CUP_8Rnd_B_Saiga12_74Slug_M", "CUP_8Rnd_B_Saiga12_74Slug_M", "CUP_8Rnd_B_Saiga12_74Slug_M", "CUP_8Rnd_B_Saiga12_74Slug_M", "CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_9x18_Makarov_M", "CUP_8Rnd_B_Saiga12_74Pellets_M", "CUP_8Rnd_B_Saiga12_74Pellets_M", "CUP_8Rnd_B_Saiga12_74Pellets_M"]],["B_AssaultPack_rgr",["CUP_RPG18_M", "CUP_RPG18_M","CUP_HandGrenade_RGD5"]]],
-	["CUP_H_SLA_Helmet",""],[["nvgoggles","binocular"],["itemmap","itemcompass"]]]];
+	[["CUP_arifle_AK47",["","","",""],["CUP_30Rnd_762x39_AK47_M"]],["",["","","",""],[""]],["CUP_launch_RPG18",[],["CUP_RPG18_M"]],["hgun_rook40_f",["","","",""],[]]],
+	[["u_o_combatuniform_ocamo",["firstaidkit","firstaidkit","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"]],["V_Chestrig_blk",["CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","16rnd_9x21_mag","16rnd_9x21_mag","smokeshell","smokeshellred"]],["CUP_B_AssaultPack_Coyote",["CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"]]],
+	["H_HelmetSpecO_ocamo",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 
 }else {
 //Default Vanilla

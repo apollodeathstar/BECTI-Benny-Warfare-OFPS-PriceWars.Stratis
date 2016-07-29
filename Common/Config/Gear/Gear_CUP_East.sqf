@@ -172,7 +172,7 @@ _p pushBack 350;
 //PKP Family
 
 _i pushBack "CUP_lmg_Pecheneg";
-_u pushBack ´3;
+_u pushBack 3;
 _p pushBack 500;
 
 //PKM Family

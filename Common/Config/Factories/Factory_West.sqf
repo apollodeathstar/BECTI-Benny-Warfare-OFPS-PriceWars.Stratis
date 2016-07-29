@@ -17,7 +17,7 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 		["CUP_M136_M", 20],
 		["CUP_8Rnd_B_Beneli_74Slug", 30],
 		["CUP_8Rnd_B_Beneli_74Pellets", 30],
-		["Toolkit", 1],
+		["Toolkit", 1]
 	]],
 	["B_MRAP_01_F", [
 		["Toolkit", 2],
