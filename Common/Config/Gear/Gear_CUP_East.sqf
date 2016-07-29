@@ -12,7 +12,7 @@ _p = [];
 //Shields
 
 _i pushBack "CUP_hgun_BallisticShield_Armed"; 
-_u pushBack 1;
+_u pushBack 0;
 _p pushBack 100;
 
 //RIFLES
@@ -20,7 +20,7 @@ _p pushBack 100;
 //AK Family
 
 _i pushBack "CUP_arifle_AK47";  
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;		
 
 _i pushBack "CUP_arifle_AK74";  
@@ -40,11 +40,11 @@ _u pushBack 1;
 _p pushBack 400;
 
 _i pushBack "CUP_arifle_AKS";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 _i pushBack "CUP_arifle_AKS_Gold";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 _i pushBack "CUP_arifle_AKS74";
@@ -68,7 +68,7 @@ _u pushBack 1;
 _p pushBack 400;
 
 _i pushBack "CUP_arifle_AKM";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 //CZ Family
@@ -86,49 +86,49 @@ _u pushBack 1;
 _p pushBack 300;
 
 _i pushBack "CUP_arifle_CZ805_B";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 _i pushBack "CUP_arifle_CZ805_B_GL";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 600;
 
 //VZ 58 Family
 
 _i pushBack "CUP_arifle_Sa58P";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 _i pushBack "CUP_arifle_Sa58V";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 _i pushBack "CUP_arifle_Sa58RIS1";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 _i pushBack "CUP_arifle_Sa58RIS2";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 _i pushBack "CUP_arifle_Sa58RIS2_gl";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 600;
 
 _i pushBack "CUP_arifle_Sa58P_des";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 _i pushBack "CUP_arifle_Sa58V_camo";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 _i pushBack "CUP_arifle_Sa58RIS1_des";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 _i pushBack "CUP_arifle_Sa58RIS2_camo";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 //XM8 Family
@@ -172,13 +172,13 @@ _p pushBack 350;
 //PKP Family
 
 _i pushBack "CUP_lmg_Pecheneg";
-_u pushBack 2;
+_u pushBack ´3;
 _p pushBack 500;
 
 //PKM Family
 
 _i pushBack "CUP_lmg_PKM";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 500;
 
 //UK59 Family
@@ -192,44 +192,44 @@ _p pushBack 550;
 
 //CZ550 Family
 
-_i pushBack "CUP_srifle_CZ550";
+_i pushBack "CUP_srifle_CZ550_rail";
 _u pushBack 2;
 _p pushBack 500;
 
 //CZ750 Family
 
 _i pushBack "CUP_srifle_CZ750";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 550;
 
 //SVD Family
 
 _i pushBack "CUP_SVD";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 550;
 
 _i pushBack "CUP_SVD_CAMO";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 550;
 
 _i pushBack "CUP_srifle_SVD_des";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 550;
 
 _i pushBack "CUP_srifle_SVD_des_ghillie_pso";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 550;
 
 //VSS Family
 
 _i pushBack "CUP_srifle_VSSVintorez";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 700;
 
 //KSVK Family
 
 _i pushBack "CUP_srifle_ksvk";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 1000;
 
 
@@ -239,7 +239,7 @@ _p pushBack 1000;
 
 _i pushBack "CUP_sgun_Saiga12K";
 _u pushBack 0;
-_p pushBack 100;
+_p pushBack 150;
 
 
 //Small Machine Guns (SMGs)
@@ -262,61 +262,67 @@ _p pushBack 200;
 
 _i pushBack "CUP_hgun_Compact";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 _i pushBack "CUP_hgun_Duty";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 _i pushBack "CUP_hgun_Duty_M3X";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 _i pushBack "CUP_hgun_Phantom";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 _i pushBack "CUP_CZ_75_D_COMPACT";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 _i pushBack "CUP_CZ_75_P_07_DUTY";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 _i pushBack "CUP_CZ_75_SP_01_PHANTOM";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 
 //Makarov Family
 
 _i pushBack "CUP_hgun_Makarov";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 _i pushBack "CUP_MakarovSD";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 //PB 6P9 Family
 
 _i pushBack "CUP_hgun_PB6P9";
 _u pushBack 0;
-_p pushBack 50;
+_p pushBack 100;
 
 //SA-61 Family
 
 _i pushBack "CUP_hgun_SA61";
 _u pushBack 0;
-_p pushBack 100;
+_p pushBack 200;
 
 //Launchers
 
 _i pushBack "CUP_glaunch_6G30";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 600;
 	
+//M79 Family
+
+_i pushBack "CUP_glaunch_M79";
+_u pushBack 0;
+_p pushBack 200;
+
 //Anti-air
 		
 //9K32 Strela
@@ -345,7 +351,7 @@ _p pushBack 2000;
 
 _i pushBack "CUP_launch_Metis";
 _u pushBack 2;
-_p pushBack 1000;
+_p pushBack 1200;
 
 
 
@@ -360,540 +366,481 @@ _p pushBack 400;
 
 _i pushBack "CUP_launch_RPG18";
 _u pushBack 0;
-_p pushBack 100;
+_p pushBack 80;
 
 
 //---Caliber 5.45x39mm
 
 _i pushBack "CUP_30Rnd_545x39_AK_M";
-_u pushBack 0;
-_p pushBack 20;
+_u pushBack 1;
+_p pushBack 50;
 
 _i pushBack "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M";
-_u pushBack 0;
-_p pushBack 20;
+_u pushBack 1;
+_p pushBack 50;
 
 _i pushBack "CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M";
-_u pushBack 0;
-_p pushBack 20;
+_u pushBack 1;
+_p pushBack 50;
 
 _i pushBack "CUP_30Rnd_TE1_White_Tracer_545x39_AK_M";
-_u pushBack 0;
-_p pushBack 20;
+_u pushBack 1;
+_p pushBack 50;
 
 _i pushBack "CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M";
-_u pushBack 0;
-_p pushBack 20;
+_u pushBack 1;
+_p pushBack 50;
 
 _i pushBack "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
-_u pushBack 0;
-_p pushBack 20;
+_u pushBack 1;
+_p pushBack 50;
 
 
 //---Caliber 5.56x45mm
 
-_i pushBack "CUP_20Rnd_556x45_Stanag";
-_u pushBack 0;
-_p pushBack 15;
-
 _i pushBack "30Rnd_556x45_Stanag";
-_u pushBack 0;
-_p pushBack 20;
+_u pushBack 1;
+_p pushBack 50;
 
 _i pushBack "30Rnd_556x45_Stanag_Tracer_Red";
-_u pushBack 0;
-_p pushBack 20;
+_u pushBack 1;
+_p pushBack 50;
 
 _i pushBack "30Rnd_556x45_Stanag_Tracer_Green";
-_u pushBack 0;
-_p pushBack 20;
-
-_i pushBack "30Rnd_556x45_Stanag_Tracer_Yellow";
-_u pushBack 0;
-_p pushBack 20;
+_u pushBack 1;
+_p pushBack 50;
 
 _i pushBack "CUP_30Rnd_556x45_Stanag";
-_u pushBack 0;
-_p pushBack 20;
+_u pushBack 1;
+_p pushBack 50;
 
 
 
 //---Caliber .303
 
 _i pushBack "CUP_10x_303_M";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 2;
+_p pushBack 150;
 
 
 //---Caliber 7.62x39mm
 
 _i pushBack "CUP_30Rnd_Sa58_M";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_30Rnd_Sa58_M_TracerG";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_30Rnd_Sa58_M_TracerR";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_30Rnd_Sa58_M_TracerY";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_30Rnd_762x39_AK47_M";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 
 //---Caliber 7.62x51mm
 
 _i pushBack "CUP_5Rnd_762x51_M24";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_5x_22_LR_17_HMR_M";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 1;
+_p pushBack 100;
 
 _i pushBack "CUP_10Rnd_762x51_CZ750";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 2;
+_p pushBack 150;
 
 _i pushBack "CUP_10Rnd_762x51_CZ750_Tracer";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 2;
+_p pushBack 150;
 
 //--20Rnd_762x51_Mag
 _i pushBack "CUP_20Rnd_762x51_FNFAL_M";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_20Rnd_762x51_DMR";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_20Rnd_TE1_Green_Tracer_762x51_DMR";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_20Rnd_TE1_White_Tracer_762x51_DMR";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_20Rnd_762x51_CZ805B";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_20Rnd_TE1_Yellow_Tracer_762x51_CZ805B";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_20Rnd_TE1_Red_Tracer_762x51_CZ805B";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_20Rnd_TE1_Green_Tracer_762x51_CZ805B";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_20Rnd_TE1_White_Tracer_762x51_CZ805B";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
-_u pushBack 0;
-_p pushBack 100;
+_u pushBack 3;
+_p pushBack 300;
 
 _i pushBack "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
-_u pushBack 0;
-_p pushBack 100;
+_u pushBack 3;
+_p pushBack 300;
 
 _i pushBack "CUP_100Rnd_TE4_White_Tracer_762x51_M240_M";
-_u pushBack 0;
-_p pushBack 100;
+_u pushBack 3;
+_p pushBack 300;
 
 _i pushBack "CUP_200Rnd_TE4_White_Tracer_762x51_M240_M";
-_u pushBack 0;
-_p pushBack 200;
+_u pushBack 3;
+_p pushBack 350;
 
 _i pushBack "CUP_200Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
-_u pushBack 0;
-_p pushBack 200;
+_u pushBack 3;
+_p pushBack 350;
 
 _i pushBack "CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
-_u pushBack 0;
-_p pushBack 200;
+_u pushBack 3;
+_p pushBack 350;
 
 
 //---Caliber 7.62x54mm
 
 _i pushBack "CUP_10Rnd_762x54_SVD_M";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_50Rnd_UK59_762x54R_Tracer";
-_u pushBack 0;
-_p pushBack 50;
+_u pushBack 3;
+_p pushBack 150;
 
 _i pushBack "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
-_u pushBack 0;
-_p pushBack 100;
+_u pushBack 3;
+_p pushBack 200;
 
 _i pushBack "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
-_u pushBack 0;
-_p pushBack 100;
+_u pushBack 3;
+_p pushBack 200;
 
 
 //---Caliber 7.65x17mm
 
-_i pushBack "CUP_10Rnd_B_765x17_Ball_M";
-_u pushBack 0;
-_p pushBack 30;
-
 _i pushBack "CUP_20Rnd_B_765x17_Ball_M";
-_u pushBack 0;
-_p pushBack 40;
+_u pushBack 3;
+_p pushBack 150;
 
 
 //---Caliber .338
 
 _i pushBack "CUP_5Rnd_86x70_L115A1";
-_u pushBack 0;
-_p pushBack 100;
+_u pushBack 3;
+_p pushBack 200;
 
 
 //---Caliber 9x18mm
 
 _i pushBack "CUP_8Rnd_9x18_Makarov_M";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 25;
 
 _i pushBack "CUP_8Rnd_9x18_MakarovSD_M";
 _u pushBack 0;
-_p pushBack 15;
+_p pushBack 25;
 
 
 //---Caliber 9x19mm
 
 _i pushBack "CUP_10Rnd_9x19_Compact";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_15Rnd_9x19_M9";
 _u pushBack 0;
-_p pushBack 15;
+_p pushBack 20;
 
 _i pushBack "CUP_17Rnd_9x19_glock17";
 _u pushBack 0;
-_p pushBack 15;
+_p pushBack 25;
 
 _i pushBack "CUP_18Rnd_9x19_Phantom";
 _u pushBack 0;
-_p pushBack 15;
+_p pushBack 25;
 
 _i pushBack "CUP_30Rnd_9x19_EVO";
 _u pushBack 0;
-_p pushBack 20;
+_p pushBack 50;
 
 _i pushBack "CUP_30Rnd_9x19_UZI";
 _u pushBack 0;
-_p pushBack 20;
+_p pushBack 50;
 
 _i pushBack "CUP_30Rnd_9x19_MP5";
 _u pushBack 0;
-_p pushBack 20;
+_p pushBack 50;
 
 _i pushBack "CUP_64Rnd_9x19_Bizon_M";
 _u pushBack 0;
-_p pushBack 40;
-
-_i pushBack "CUP_64Rnd_Green_Tracer_9x19_Bizon_M";
-_u pushBack 0;
-_p pushBack 40;
-
-_i pushBack "CUP_64Rnd_Red_Tracer_9x19_Bizon_M";
-_u pushBack 0;
-_p pushBack 40;
+_p pushBack 70;
 
 _i pushBack "CUP_64Rnd_White_Tracer_9x19_Bizon_M";
 _u pushBack 0;
-_p pushBack 40;
-
-_i pushBack "CUP_64Rnd_Yellow_Tracer_9x19_Bizon_M";
-_u pushBack 0;
-_p pushBack 40;
+_p pushBack 70;
 
 
 //---Caliber 9x21mm
 
-_i pushBack "16Rnd_9x21_Mag";
-_u pushBack 0;
-_p pushBack 50;
 
 _i pushBack "30Rnd_9x21_Mag";
 _u pushBack 0;
-_p pushBack 90;
+_p pushBack 50;
 
 
 //---Caliber 9x39mm
 
-_i pushBack "CUP_10Rnd_9x39_SP5_VSS_M";
-_u pushBack 0;
-_p pushBack 50;
-
 _i pushBack "CUP_20Rnd_9x39_SP5_VSS_M";
-_u pushBack 0;
-_p pushBack 100;
+_u pushBack 3;
+_p pushBack 150;
 
 
 //---Caliber .45
 
 _i pushBack "CUP_6Rnd_45ACP_M";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 25;
 
 _i pushBack "CUP_7Rnd_45ACP_1911";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 25;
 
 
 //---Caliber 12.7x99mm
 
 _i pushBack "CUP_5Rnd_127x99_as50_M";
-_u pushBack 0;
-_p pushBack 50;
+_u pushBack 3;
+_p pushBack 250;
 
 _i pushBack "CUP_10Rnd_127x99_M107";
-_u pushBack 0;
-_p pushBack 80;
+_u pushBack 3;
+_p pushBack 250;
 
 
 //---Caliber 12.7x108mm
 
 _i pushBack "CUP_5Rnd_127x108_KSVK_M";
-_u pushBack 0;
-_p pushBack 50;
+_u pushBack 3;
+_p pushBack 250;
 
 
 //---Caliber 12Gauge/Shotguns
 
 _i pushBack "CUP_8Rnd_B_Saiga12_74Slug_M";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 50;
 
 _i pushBack "CUP_8Rnd_B_Saiga12_74Pellets_M";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 50;
 
 _i pushBack "CUP_8Rnd_B_Beneli_74Slug";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 50;
 
 _i pushBack "CUP_8Rnd_B_Beneli_74Pellets";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 50;
 
 _i pushBack "CUP_20Rnd_B_AA12_Pellets";
 _u pushBack 0;
-_p pushBack 20;
+_p pushBack 50;
 
 _i pushBack "CUP_20Rnd_B_AA12_74Slug";
 _u pushBack 0;
-_p pushBack 20;
+_p pushBack 50;
 
 _i pushBack "CUP_20Rnd_B_AA12_HE";
-_u pushBack 0;
-_p pushBack 50;
+_u pushBack 1;
+_p pushBack 150;
 
 
 //--- Caliber 40mm Grenades
 
 _i pushBack "1Rnd_HE_Grenade_shell";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 50;
 
 _i pushBack "CUP_1Rnd_HE_M203";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 50;
 
 _i pushBack "CUP_1Rnd_HEDP_M203";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 50;
 
 _i pushBack "CUP_1Rnd_HE_GP25_M";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 50;
 
 //--- Smoke
 
 _i pushBack "1Rnd_Smoke_Grenade_shell";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_1Rnd_SMOKE_GP25_M";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_1Rnd_Smoke_M203";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "1Rnd_SmokeRed_Grenade_shell";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_1Rnd_SmokeRed_GP25_M";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_1Rnd_SmokeRed_M203";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "1Rnd_SmokeGreen_Grenade_shell";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_1Rnd_SmokeGreen_GP25_M";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_1Rnd_SmokeGreen_M203";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "1Rnd_SmokeYellow_Grenade_shell";
 _u pushBack 0;
-_p pushBack 10;
-
-_i pushBack "CUP_1Rnd_SmokeYellow_GP25_M";
-_u pushBack 0;
-_p pushBack 10;
-
-_i pushBack "CUP_1Rnd_SmokeYellow_M203";
-_u pushBack 0;
-_p pushBack 10;
-
-_i pushBack "1Rnd_SmokePurple_Grenade_shell";
-_u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "1Rnd_SmokeBlue_Grenade_shell";
 _u pushBack 0;
-_p pushBack 10;
-
-_i pushBack "1Rnd_SmokeOrange_Grenade_shell";
-_u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 
 //--- Flares
 
 _i pushBack "UGL_FlareWhite_F";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_FlareWhite_GP25_M";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_FlareWhite_M203";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "UGL_FlareRed_F";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_FlareRed_GP25_M";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_FlareRed_M203";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "UGL_FlareGreen_F";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_FlareGreen_GP25_M";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "CUP_FlareGreen_M203";
 _u pushBack 0;
-_p pushBack 10;
-
-_i pushBack "UGL_FlareYellow_F";
-_u pushBack 0;
-_p pushBack 10;
-
-_i pushBack "CUP_FlareYellow_GP25_M";
-_u pushBack 0;
-_p pushBack 10;
-
-_i pushBack "CUP_FlareYellow_M203";
-_u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 _i pushBack "UGL_FlareCIR_F";
 _u pushBack 0;
-_p pushBack 10;
+_p pushBack 20;
 
 
 //--- Magazine 6 Rounds
 
 _i pushBack "CUP_6Rnd_HE_M203";
-_u pushBack 0;
-_p pushBack 100;
+_u pushBack 1;
+_p pushBack 150;
 
 _i pushBack "CUP_6Rnd_Smoke_M203";
-_u pushBack 0;
-_p pushBack 10;
+_u pushBack 1;
+_p pushBack 120;
 
 _i pushBack "CUP_6Rnd_SmokeRed_M203";
-_u pushBack 0;
-_p pushBack 10;
+_u pushBack 1;
+_p pushBack 120;
 
 _i pushBack "CUP_6Rnd_SmokeGreen_M203";
-_u pushBack 0;
-_p pushBack 10;
+_u pushBack 1;
+_p pushBack 120;
 
 _i pushBack "CUP_6Rnd_SmokeYellow_M203";
-_u pushBack 0;
-_p pushBack 10;
+_u pushBack 1;
+_p pushBack 120;
 
 _i pushBack "CUP_6Rnd_FlareWhite_M203";
-_u pushBack 0;
-_p pushBack 10;
+_u pushBack 1;
+_p pushBack 120;
 
 _i pushBack "CUP_6Rnd_FlareGreen_M203";
-_u pushBack 0;
-_p pushBack 10;
+_u pushBack 1;
+_p pushBack 120;
 
 _i pushBack "CUP_6Rnd_FlareRed_M203";
-_u pushBack 0;
-_p pushBack 10;
+_u pushBack 1;
+_p pushBack 120;
 
 _i pushBack "CUP_6Rnd_FlareYellow_M203";
-_u pushBack 0;
-_p pushBack 10;
+_u pushBack 1;
+_p pushBack 120;
 
 _i pushBack "CUP_6Rnd_HE_GP25_M";
-_u pushBack 0;
-_p pushBack 100;
+_u pushBack 1;
+_p pushBack 150;
 
 //--- Handgrenades
 
@@ -936,75 +883,59 @@ _i pushBack "CUP_PipeBomb_M";
 _u pushBack 2;
 _p pushBack 300;
 
-_i pushBack "CUP_IED_V1_M";
-_u pushBack 0;
-_p pushBack 300;
-
-_i pushBack "CUP_IED_V2_M";
-_u pushBack 0;
-_p pushBack 300;
-
-_i pushBack "CUP_IED_V3_M";
-_u pushBack 0;
-_p pushBack 300;
-
-_i pushBack "CUP_IED_V4_M";
-_u pushBack 0;
-_p pushBack 300;
-
 
 //--- Rockets Bombs
 
 _i pushBack "CUP_Strela_2_M";
 _u pushBack 2;
-_p pushBack 900;
+_p pushBack 1000;
 
 _i pushBack "CUP_Igla_M";
 _u pushBack 2;
-_p pushBack 900;
+_p pushBack 1000;
 
 _i pushBack "CUP_Dragon_EP1_M"; //M47 Dragon
-_u pushBack 0;
-_p pushBack 500;
+_u pushBack 2;
+_p pushBack 1500;
 
 _i pushBack "CUP_AT13_M";  //metis missiles
-_u pushBack 0;
-_p pushBack 700;
+_u pushBack 2;
+_p pushBack 750;
 
 _i pushBack "CUP_RPG18_M";
 _u pushBack 0;
 _p pushBack 100;
 
 _i pushBack "CUP_MAAWS_HEDP_M";
-_u pushBack 0;
-_p pushBack 300;
+_u pushBack 2;
+_p pushBack 350;
 
 _i pushBack "CUP_MAAWS_HEAT_M";
-_u pushBack 0;
-_p pushBack 300;
+_u pushBack 2;
+_p pushBack 350;
 
 _i pushBack "CUP_PG7V_M";
-_u pushBack 0;
-_p pushBack 100;
+_u pushBack 1;
+_p pushBack 200;
 
 _i pushBack "CUP_PG7VL_M";
-_u pushBack 0;
-_p pushBack 150;
+_u pushBack 1;
+_p pushBack 200;
 
 _i pushBack "CUP_PG7VR_M";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 200;
 
 _i pushBack "CUP_OG7_M";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 250;
 
 _i pushBack "CUP_PG9_AT_M";
-_u pushBack 0;
-_p pushBack 300;
+_u pushBack 1;
+_p pushBack 350;
 
 _i pushBack "CUP_OG9_HE_M";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 250;
 
 //--CUP Attachments
@@ -1064,18 +995,18 @@ _p pushBack 200;
 //--Trijicon RedDot Optics
 
 _i pushBack "CUP_optic_TrijiconRx01_desert";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 400;
 
 _i pushBack "CUP_optic_TrijiconRx01_black";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 400;
 
 
 //--Schmidt and Bender ShortDot Optics
 
 _i pushBack "CUP_optic_SB_11_4x20_PM";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 800;
 
 
@@ -1093,85 +1024,85 @@ _p pushBack 200;
 //--Trijicon RCO and ACOG Optics
 
 _i pushBack "CUP_optic_RCO";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 400;
 
 _i pushBack "CUP_optic_RCO_desert";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 400;
 
 _i pushBack "CUP_optic_ACOG";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 400;
 
 
 //--Midrange Optics
 
 _i pushBack "CUP_optic_SUSAT";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 400;
 
 _i pushBack "CUP_optic_ElcanM145";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 400;
 
 _i pushBack "CUP_optic_ELCAN_SpecterDR";
-_u pushBack 2;
+_u pushBack 3;
 _p pushBack 400;
 
 _i pushBack "CUP_optic_CWS";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 1600;
 
 
 //--PSO Optics
 
 _i pushBack "CUP_optic_PSO_1";
-_u pushBack 1;
+_u pushBack 3;
 _p pushBack 800;
 
 _i pushBack "CUP_optic_PSO_3";
-_u pushBack 1;
+_u pushBack 3;
 _p pushBack 800;
 
 
 //--DMR Sniper Optics
 
 _i pushBack "CUP_optic_SB_3_12x50_PMII";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 800;
 
 _i pushBack "CUP_optic_LeupoldMk4";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 800;
 
 _i pushBack "CUP_optic_Leupold_VX3";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 800;
 
 _i pushBack "CUP_optic_LeupoldM3LR";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 800;
 
 _i pushBack "CUP_optic_LeupoldMk4_10x40_LRT_Desert";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 800;
 
 _i pushBack "CUP_optic_LeupoldMk4_10x40_LRT_Woodland";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 800;
 
 _i pushBack "CUP_optic_LeupoldMk4_CQ_T";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 800;
 
 _i pushBack "CUP_optic_LeupoldMk4_MRT_tan";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 800;
 
 _i pushBack "CUP_optic_PechenegScope";
-_u pushBack 3;
-_p pushBack 800;
+_u pushBack 2;
+_p pushBack 600;
 
 
 //--Nightvision TWS Optics
@@ -1181,7 +1112,7 @@ _u pushBack 2;
 _p pushBack 1000;
 
 _i pushBack "CUP_optic_AN_PAS_13c2";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 1600;
 
 _i pushBack "CUP_optic_GOSHAWK";
@@ -1189,11 +1120,11 @@ _u pushBack 3;
 _p pushBack 1000;
 
 _i pushBack "CUP_optic_AN_PVS_10";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 1000;
 
 _i pushBack "CUP_optic_AN_PVS_4";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 1000;
 
 _i pushBack "CUP_optic_NSPU";
@@ -1205,46 +1136,46 @@ _p pushBack 1000;
 //--Silencer Attachment
 
 _i pushBack "CUP_muzzle_snds_AWM";
-_u pushBack 3;
+_u pushBack 4;
 _p pushBack 700;
 
 _i pushBack "CUP_muzzle_PBS4";
-_u pushBack 0;
+_u pushBack 2;
 _p pushBack 500;
 
 _i pushBack "CUP_muzzle_PB6P9";
 _u pushBack 0;
-_p pushBack 200;
+_p pushBack 100;
 
 _i pushBack "CUP_muzzle_Bizon";
 _u pushBack 0;
-_p pushBack 200;
+_p pushBack 100;
 
 _i pushBack "CUP_muzzle_snds_MicroUzi";
 _u pushBack 0;
-_p pushBack 200;
+_p pushBack 100;
 
 //--Side Attachment
 //--Laser Attachment
 
 _i pushBack "CUP_acc_ANPEQ_15";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 100;
 
 _i pushBack "CUP_acc_ANPEQ_2";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 100;
 
 _i pushBack "CUP_acc_ANPEQ_2_camo";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 100;
 
 _i pushBack "CUP_acc_ANPEQ_2_desert";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 100;
 
 _i pushBack "CUP_acc_ANPEQ_2_grey";
-_u pushBack 0;
+_u pushBack 1;
 _p pushBack 100;
 
 
