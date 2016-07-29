@@ -13,39 +13,28 @@ missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_Helipilot_F"];
 if (CTI_CUP_ADDON > 0) then { 
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
 	["O_Truck_03_medical_F", [
-		["CUP_arifle_AK74_GL", 4], ["CUP_30Rnd_762x39_AK47_M", 50],
 		["CUP_launch_RPG18", 5], ["CUP_RPG18_M", 20],
 		["CUP_HandGrenade_M67", 20],
-		["CUP_30Rnd_545x39_AK_M", 30],
-		["CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M", 10],
-		["CUP_1Rnd_HE_GP25_M", 24],
-		["CUP_FlareRed_GP25_M", 27],
-		["CUP_1Rnd_SmokeRed_GP25_M", 9],
 		["SmokeShellRed", 8],
-		["firstaidkit", 20],
-		["Chemlight_red", 36],
-		["acc_flashlight", 10],
-		["Toolkit", 4],
-		["B_Kitbag_cbr", 4]
+		["Toolkit", 1],
+                ["CUP_8Rnd_B_Saiga12_7Pellets_M", 30]
+		["CUP_8Rnd_B_Saiga12_74Slug_M", 30]
 	]],
 	["O_MRAP_02_F", [
-		["Toolkit", 2],
-		["firstaidkit", 10],
-		["CUP_30Rnd_762x39_AK47_M", 25],
+		["CUP_8Rnd_B_Saiga12_7Pellets_M", 30]
+		["CUP_8Rnd_B_Saiga12_74Slug_M", 30]
 		["CUP_launch_RPG18", 5],
 		["CUP_RPG18_M", 10]
 	]],
 	["CUP_O_BRDM2_CSAT", [
-		["Toolkit", 2],
-		["firstaidkit", 10],
-		["CUP_30Rnd_762x39_AK47_M", 25],
+		["CUP_8Rnd_B_Saiga12_7Pellets_M", 30]
+		["CUP_8Rnd_B_Saiga12_74Slug_M", 30]
 		["CUP_launch_RPG18", 5],
 		["CUP_RPG18_M", 10]
 	]],
 	["CUP_O_BTR60_CSAT", [
-		["Toolkit", 2],
-		["firstaidkit", 10],
-		["CUP_30Rnd_762x39_AK47_M", 25],
+		["CUP_8Rnd_B_Saiga12_7Pellets_M", 30]
+		["CUP_8Rnd_B_Saiga12_74Slug_M", 30]
 		["CUP_launch_RPG18", 5],
 		["CUP_RPG18_M", 10]
 	]]
